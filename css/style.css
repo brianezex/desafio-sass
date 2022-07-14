@@ -1,3 +1,26 @@
+.btn, .ul li {
+  background: linear-gradient(to bottom, pink, violet);
+  text-decoration: none;
+  padding: 2px; }
+  .btn:hover, .ul li:hover {
+    cursor: pointer; }
+
+.ul li {
+  padding: 5px;
+  list-style: none; }
+
+h1 {
+  font-size: 2em;
+  line-height: 2.5em;
+  color: #b13c8a;
+  padding-bottom: 5px; }
+
+h2 {
+  font-size: 2em;
+  line-height: 2.5em;
+  color: #b13c8a;
+  padding-bottom: 5px; }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -22,10 +45,6 @@ body {
 .nav {
   grid-area: nav;
   padding: 20px; }
-
-.ul li {
-  padding: 5px;
-  list-style: none; }
 
 main {
   grid-area: main; }

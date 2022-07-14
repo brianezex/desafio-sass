@@ -9,7 +9,7 @@
 
 body{
     min-height: 100%;
-    background-color: rgb(237, 237, 237);
+    background-color: map-get($map:$paleta, $key: 'mainColor');
     display: 100vh;
 }
 
@@ -18,20 +18,14 @@ body{
 }
 
 .header{
-    background-color: $secundaryColor;
-    color: $pink;
+    background-color: map-get($map:$paleta, $key: 'secundaryColor');
+    color: map-get($map:$paleta, $key: 'pink');
     grid-area: header;
 }
 
 .nav{
     grid-area: nav;
     padding: 20px;
-}
-
-.ul{
-    li{
-    padding: 5px;
-    list-style: none;}
 }
 
 main{
@@ -62,8 +56,8 @@ main{
 }
 
 .footer{
-    background-color: $secundaryColor;
-    color: $white;
+    background-color: map-get($map:$paleta, $key: 'secundaryColor');
+    color: map-get($map:$paleta, $key: 'white');
     grid-area: pie;
 }
 
@@ -125,8 +119,8 @@ main{
 }
 
 .heade{
-    background-color: $secundaryColor;
-    color: $pink;
+    background-color: map-get($map:$paleta, $key: 'secundaryColor');
+    color: map-get($map: $paleta, $key: 'pink');
     grid-area: head;
 }
 
